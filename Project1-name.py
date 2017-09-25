@@ -9,3 +9,4 @@ user_name = input('What is your name?\n') # Asks for user name.
 print('It\'s nice to meet you', user_name)
 print('Length of your name is:')
 print(len(user_name)) # Returns name's length
+
