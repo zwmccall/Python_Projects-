@@ -7,6 +7,6 @@ You can contribute to this and make new projects.
 Help me in improving my code
 
 
-Note:I am not a professional programmer I am still learning to code.
+Note: I am not a professional programmer I am still learning to code.
 
 
