@@ -3,6 +3,7 @@
 @author: jalbert
 Implementation of three sorting algorithms with complexity 0(n^2) and the comparasion of time execution between them. 
 """
+#made using python 2
 
 import random
 from time import time
