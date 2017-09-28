@@ -1,12 +1,9 @@
 # Python_Projects
-Contains projects made using Python 3.x.
 
-You can contribute to this and make new projects.
+Contains projects made using Python 3.x
 
+Contribute to this repo by submitting fun and exciting projects.
 
-Help me in improving my code
-
+Also, please help me in improving my code.
 
 Note: I am not a professional programmer I am still learning to code.
-
-
