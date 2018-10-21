@@ -14,15 +14,15 @@ consumerSecret = input('Enter your consumer secret: ')
 accessToken = input('Enter your access token: ')
 accessSecret = input('Enter your access secret: ')
 
-# OPEN ZE HANDLE
+# OPEN the handle variable which acts like a cursor
 handle=open('tweets.txt','w')
 
-# Auth variables
+# Loading Auth variables 
 auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
 auth.set_access_token(accessToken, accessSecret)
 api = tweepy.API(auth)
 
-# <Insert cool stuff here>
+# Cursor goes through each tweet and processes the status, limit is set to 100
 for status in tweepy.Cursor(api.home_timeline).items(100):
     # Process a single status
     print (status.text)
