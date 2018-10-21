@@ -8,7 +8,7 @@ from tweepy import OAuthHandler
 
 # Here be main
 def main():
-# variables for keys
+# auth variables for keys
 consumerKey = input('Enter your consumer key: ')
 consumerSecret = input('Enter your consumer secret: ')
 accessToken = input('Enter your access token: ')
